@@ -55,6 +55,6 @@ public class Livro implements Imprestavel {
 
     @Override
     public String toString() {
-        return "Livro(s) Adicionado(s): \nCódigo do livro: " + codigo + "\n Título: " + titulo + "\nAutor: " + autor+"\n";
+        return "Código do livro: " + codigo + "\nTítulo: " + titulo + "\nAutor: " + autor+"\n";
     }
 }
